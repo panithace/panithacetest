@@ -1,0 +1,17 @@
+body {
+	background-color: #009900;
+	text-align: justify;
+	font-family: "copperplate", fantasy;
+}
+
+
+.table {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+#header_nav {
+	background-color: #cc9900;
+	border-radius: 0;
+	border: 0;
+}
