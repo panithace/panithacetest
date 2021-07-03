@@ -9,3 +9,9 @@ body {
   border: 3px solid black;
   border-collapse: collapse;
 }
+
+#header_nav {
+	background-color: #cc9900;
+	border-radius: 0;
+	border: 0;
+}
