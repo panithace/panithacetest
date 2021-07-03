@@ -1,17 +1,13 @@
 body {
-	background-color: #009900;
+
+	background-color: #660066;
+	font-size: 16px;
 	text-align: justify;
 	font-family: "copperplate", fantasy;
 }
 
 
-.table {
+/* .table {
   border: 3px solid black;
   border-collapse: collapse;
-}
-
-#header_nav {
-	background-color: #cc9900;
-	border-radius: 0;
-	border: 0;
-}
+} */
