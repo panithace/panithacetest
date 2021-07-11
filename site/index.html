@@ -7,23 +7,46 @@
 	<title> Hello Arash! </title>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/style.css">
+	<!--jQuery (bootstrap)-->
+	<script src="../js/jquery-3.6.0.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../script.js"></script>
 </head>
 
 <body>
-  <header>
- 	<nav id="header_nav" class="navbar navbar-default">
- 		<div class="container">
-
- 		</div>
- 	</nav>
-
- </header>
-
-
-
-	<!--jQuery (bootstrap)-->
-	<script src="../js/jquery-3.6.0.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script src="../script.js"></script>
+  
+<div class="container-fluid">
+  <h2>Hello Arash! </h2>
+  <nav class="navbar navbar-expand-sm bg-light">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="pill" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#">Museum</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#">Timeline</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#">Hopes and Dreams</a>
+    </li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Circle</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Friends</a>
+      <a class="dropdown-item" href="#">Family</a>
+      <a class="dropdown-item" href="#">Acquaintance</a>
+    </div>
+  </li>
+  </ul>
+</div>
+<div class="tab-content">
+  <div class="tab-pane container active" id="home">...</div>
+  <div class="tab-pane container fade" id="menu1">...</div>
+  <div class="tab-pane container fade" id="menu2">...</div>
+</div>
+</nav>
+	
 </body>
 </html>
